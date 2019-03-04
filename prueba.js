@@ -3,8 +3,6 @@ const fs = require('fs');
 //llama al modulo que extrae los links del texto
 const markdownLinkExtractor = require('markdown-link-extractor');
 
-// console.log(extractlinkMd);
-
 module.exports ={ 
 
 //Guarda en esta variable la ruta del archivo. Verifica si es ruta absoluta o relativa 
@@ -27,6 +25,7 @@ mdPathLinks: (path,option) => {
         console.log(line)
     });
   }
+
 },
 };
 
