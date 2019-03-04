@@ -7,12 +7,11 @@ module.exports ={
 
 //Guarda en esta variable la ruta del archivo. Verifica si es ruta absoluta o relativa 
 mdPathLinks: (path,option) => {
-  // console.log(path);
 
   //si es carpeta...
   const pathFolder = String(path).trim();  //elimina espacios en la ruta ingresada por el usuario
   
-  // con la sig, linea me devuelve  un -1 si la ruta existe o no s
+  // con la sig, linea me devuelve  un -1 si la ruta existe o no 
   if (String(pathFolder).indexOf('md')!== -1){
 
     //guarda la lectura del archivo
